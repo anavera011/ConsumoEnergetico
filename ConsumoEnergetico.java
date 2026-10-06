@@ -60,10 +60,17 @@ public class ConsumoEnergetico {
             clasificacionCambio = "Aumento elevado del consumo";
         }
 
-        System.out.println("==RESULTADO DE ANÁLISIS");
-        System.out.println("Variación porcentual: " + porcentaje);
-        System.out.println("Resultado: " + clasificacionCambio);
-
+        System.out.println("============================================");
+        System.out.println("==========ANALIZADOR DE CONSUMO=============");
+        System.out.println("============================================");
+        System.out.println("Promedio del consumo: " + promedio);
+        System.out.println("Nivel: " + clasificacion);
+        System.out.println("Promedio Anterior: " + promedioAnterior);
+        System.out.println("Promedio Actual: " + promedio);
+        System.out.println("Variacion: " + porcentaje);
+        System.out.println("=====RESULTADO=====");
+        System.out.println(clasificacionCambio);
+      
         teclado.close();
     }
 }
